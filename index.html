@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
    <body>
@@ -51,7 +52,7 @@
           <div class="container">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
             <!--button-->
-             <button class="hero-button btn">Заказать услугу</button>
+             <button class="hero-button btn" data-modal-open>Заказать услугу</button>
           </div>             
              
          </section>
@@ -391,6 +392,7 @@
                   </div>
                   </div>
               </footer>
+
               <div class="backdrop is-hidden" data-modal>
                 <div class="modal-window">
                   <button type="button" class="close-btn" data-modal-close>
