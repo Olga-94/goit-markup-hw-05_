@@ -637,7 +637,7 @@ margin-left: 70px;
   border: 0px;
   min-width: 73px;
   padding: 6px 22px;
-  transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
 
 .buttons-list-item:hover,
